@@ -577,6 +577,10 @@ footer {
         height: 300px;
     }
 
+    .imagenes-seccion3 {
+        width: 390px;
+    }
+
 
 /* ---------------------------------seccion4--------------------------------- */
 
@@ -699,6 +703,10 @@ footer {
 
         #imagen2 {
             margin-left: 100px;
+        }
+
+        .imagenes-seccion3 {
+            width: 390px;
         }
     
     
