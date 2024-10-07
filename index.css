@@ -622,3 +622,127 @@ footer {
     }
 
 }
+
+
+
+@media (max-width: 600px){ 
+
+    /* ---------------------------------header--------------------------------- */
+    
+        header {
+            padding: 20px;
+        }
+    
+    /* ---------------------------------seccion1--------------------------------- */
+    
+        .seccion-1 {
+            height: 80vh;
+        }
+    
+        .content-seccion-1 {
+            width: 400px;
+        }
+    
+        .content-seccion-1 h1, h5 {
+            margin: 0px 20px;
+        }
+    
+        .content-seccion-1 h1 {
+            font-size: 2.5rem;
+        }
+    
+        .content-seccion-1 h5 {
+            font-size: 1rem;
+        }
+    
+    /* ---------------------------------seccion2--------------------------------- */
+    
+        .seccion-2 {
+            padding: 20px;
+            height: 120vh;
+        }
+    
+    
+        .content-seccion-2  {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+    
+        .seccion-2 h2 {
+            font-size: 2.75rem;
+            margin: 0px;
+        }
+    
+        .two h3, .three h3 {
+            font-size: 1.5rem;
+        }
+        
+        .two p, .three p {
+            font-size: 1rem;
+        }
+    
+    
+    /* ---------------------------------seccion3--------------------------------- */
+    
+        .seccion-3 {
+            padding: 50px 20px;
+        }
+    
+        .content-seccion-3 {
+            flex-direction: column;
+        }
+    
+        .texto-seccion3 {
+            height: 300px;
+        }
+
+        #imagen2 {
+            margin-left: 100px;
+        }
+    
+    
+    /* ---------------------------------seccion4--------------------------------- */
+    
+        .seccion-4 {
+            padding: 40px 20px;
+        }
+    
+        .content-seccion4 {
+            grid-template-columns: repeat(1, 6fr);
+        }
+    
+    
+    /* ---------------------------------seccion5--------------------------------- */
+    
+    
+        .seccion-5 {
+            padding: 20px;
+        }
+    
+        .seccion-5 h1 {
+            font-size: 50px;
+        }
+    
+        .content-seccion5 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+    
+    
+    /* ---------------------------------seccion6--------------------------------- */ 
+    
+        .seccion-6 {
+            display: flex;
+            flex-direction: column;
+            padding: 80px 0px;
+        }
+    
+        .alan {
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+    
+    }
