@@ -1,9 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0px;
 }
 
 header {
-    background-color: #000000;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +23,6 @@ header img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: white 1px solid;
 }
 
 .header-right {
@@ -29,12 +33,21 @@ header img {
     text-decoration: none;
     margin: 20px;
     transition: 0.25s;
+    color: #FFFFFF;
+    border-bottom: none; /* Agrega por defecto sin borde */
 }
 
 .header-right a:hover {
     color: white;
 }
 
+.redes a {
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
 
 /* ------------------------------------------seccion 1--------------------------------------------------------------- */
 
@@ -78,6 +91,7 @@ header img {
     font-weight: 400;
     font-size: 2.25rem;
     line-height: 1.2;
+    color: #dddbdb;
 }
 
 
@@ -160,18 +174,16 @@ header img {
 .imagenes-seccion3 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 500px;
     width: 605px;
 }
 
 .imagenes-seccion3 img {
-    width: 250px;
+    width: 350px;
 }
 
-#imagen2 {
-    margin-top: 10px;
-    margin-left: 200px;
-}
 
 .texto-seccion3 {
     height: 500px;
@@ -241,7 +253,7 @@ header img {
 #card1 {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(imagenes/seccion4-imagen1.png);
+    url(imagenes/marketing.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -275,7 +287,7 @@ header img {
 #card5 {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(imagenes/Anotacin2024-10-06104505.png);
+    url(imagenes/diseños.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -635,6 +647,14 @@ footer {
     
         header {
             padding: 20px;
+        }
+
+        .nav-link {
+            display: none;
+        }
+
+        #iniciar {
+            border-bottom: #FFFFFF solid 1px;
         }
     
     /* ---------------------------------seccion1--------------------------------- */
